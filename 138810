@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML</title>
+  <!--Подключаю стили-->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <!--Верстка шапки-->
+  <header class="wrapper-outer section-header">
+    <div class="wrapper-inner wrapper-inner-width">
+   <div class="main-navigation">
+         <a class="logo" href="#"></a>
+         
+         <!--Верстка бургера
+         <button class="btn no-bg burger" type="submit">
+           <span></span>
+           <span></span>
+           <span></span>
+         </button>-->
+         
+         <!--Навигация шапки-->
+         <div class="main-navigation-inner-wrap">
+         <nav class="nav">
+           <ul class="nav-ul">
+             <li class="item"> 
+               <a class="link active" href="#">Home</a>
+             </li>
+             <li class="item"> 
+               <a class="link" href="#">Blog</a>
+             </li>
+             <li class="item"> 
+               <a class="link" href="#">Features</a>
+             </li>
+             <li class="item"> 
+               <a class="link" href="#">Pricing</a>
+             </li>
+             <li class="item "> 
+               <a class="link" href="#">Documentation</a>
+             </li>
+           </ul>
+         </nav>
+         
+         <!--Переход на социальные сети-->
+         <div class="social">
+           <ul class="social-ul">
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img src="./img/facebook.jpg" alt="" />
+               </a>
+             </li>
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img src="./img/telegram.jpg" alt="" />
+               </a>
+             </li>
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img src="./img/medium.jpg" alt="" />
+               </a>
+             </li>
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img class="twitter" src="./img/twitter.jpg" alt="" />
+               </a>
+             </li>
+           </ul>
+         </div>
+         
+         <!--Кнопка шапки сайта-->
+         <div class="btn">
+           <a class="link-btn" href="#">Get started</a>
+         </div>
+        </div>
+       </div>
+    </div>
+  </header>
+  
+  <!--Верстка первого блока-->
+   <section class="wrapper-outer section-hero-image">
+    <div class="wrapper-inner">
+      <ul class="slider-image">
+        <li class="slider-image-item">
+          <div class=" wrapper-inner slider-image-content">
+            <h5>Plan your Lite</h5>
+            <h2>Increase your<span> productivity</span></h2>
+            <div class="text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel imperdiet erat, ut auctor odio.<span class="display"> Nulla mollis augue commodo justo porta, nec venenatis tellus maximus.</span>
+            </div>
+            <button type="submit">
+              <a href="#">
+                <img class="btn-play" src="./img/btn.png" alt="" />
+              </a>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    
+    <!--кнопки для слайдера
+    <ul class="dots">
+      <li class="dots-item active-dots"></li>
+      <li class="dots-item"></li>
+      <li class="dots-item"></li>
+    </ul>-->
+  </section>
+
+  <!--Верстка второго блока-->
+   <section class="wrapper-outer section-customers">
+    <div class="wrapper-inner">
+      <img src="./img/bit.jpg" alt="" />
+      <img src="./img/apple.jpg" alt="" />
+      <img src="./img/fac.jpg" alt="" />
+      <img src="./img/atlassian.jpg" alt="" />
+    </div>
+  </section>
+  
+    <!--Верстка третьего блока-->
+   <section class="wrapper-outer section-plan-and-manage">
+    <div class="wrapper-inner">
+    <div class="plan-content">
+       <img class="foto-plan-and-manage" src="./img/plan-and-manage-foto.jpg" alt="" /> 
+      <h5>DESKTOP AND MOBILE APP</h5>
+        <p class="text-manage"><span>Plan</span> and <span>manage  </span></p>
+      <div class="text-plan">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</div>
+    </div>
+    
+     <div>
+      <img class="tel" src="./img/plan-and-manage-foto.jpg" alt="" />
+    </div>
+    <div class="btns">Viev video </div>
+    <div class="no-bg">See features</div>
+   </div>
+  </section>
+  
+    <!--Верстка четвёртого блока-->
+   <section class="wrapper-outer section-features">
+    <div class="wrapper-inner">
+      <h5>ABOUT US</h5>
+      <h4>Read about our app</h4>
+      <ul class="featurs-list">
+        <li class="featurs-list-item">
+          <div class="featurs-list-item-icon"><img src="./img/features-icon1.jpg" alt="" width="100px"/></div>
+          <div class="featurs-list-item-title">Overview</div>
+          <div class="featurs-list-item-text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</div>
+        </li>
+        <li class="featurs-list-item">
+          <div class="featurs-list-item-icon"><img src="./img/features-icon2.jpg" alt="" width="100px"/></div>
+          <div class="featurs-list-item-title">Files</div>
+          <div class="featurs-list-item-text"> No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</div>
+        </li>
+        <li class="featurs-list-item">
+          <div class="featurs-list-item-icon"><img src="./img/features-icon3.jpg" alt="" width="100px"/></div>
+          <div class="featurs-list-item-title">Meeting chats</div>
+          <div class="featurs-list-item-text">Vim ne tacimates neglegentur. Erat diceret omittam at est.</div>
+        </li> 
+        <li class="featurs-list-item">
+          <div class="featurs-list-item-icon"><img src="./img/features-icon4.jpg" alt="" width="100px"/></div>
+          <div class="featurs-list-item-title">Save events</div>
+          <div class="featurs-list-item-text">Nisl idque mel ea, nominati voluptatum.</div>
+        </li> 
+      </ul>
+      <div class="btn-features">
+        <a class="btn danger" href="">Read more</a>
+        <span class="or-block">OR</span>
+         <a class="btn" href="">Get started</a>
+      </div>
+    </div>
+  </section>
+  
+    <!--Верстка пятого блока-->
+   <section class="wrapper-outer section-stats">
+    <div class="section-stats-left">
+      <div class="section-stats-left-icon"><img src="./img/stats-left.jpg" alt="" width="75px"/></div>
+      <div class="section-stats-left-number">89%</div>
+      <div class="section-stats-left-text">customers who have increased their productivity</div>
+    </div>
+    <div class="section-stats-right">
+      <div class="section-stats-left-icon"><img src="./img/stats-right.jpg" alt="" width="75px"/></div>
+      <div class="section-stats-left-number">1321</div>
+      <div class="section-stats-left-text">Users who have used our aplication</div>
+    </div>
+  </section>  
+  
+    <!--Верстка шестого блока-->
+   <section class="wrapper-outer section-blog">
+    <div class="wrapper-inner inner">
+        <div class="blog-left">
+            <h5>OUR RESOURCES</h5>
+      <h4>Start reading our blog</h4>
+      <ul class="slider-blog">
+        <li class="slider-blog-item"><img src="./img/blog-slider.jpg" alt="" /></li>
+       <ul class="slider-blig">
+          <li class="slider-blog-item2"><img src="./img/slider-blog2.jpg" alt="" /></li>
+        <li class="slider-blog-item2"><img src="./img/slider-blog3.jpg" alt="" /></li>
+       </ul>
+      </ul>
+        </div>
+        <h4>How to start planning</h4>
+        <p>Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas tibique pro at, eos ut decore ...</p>
+ </div>  
+ 
+   <!-- кнопки для слайдера
+    <ul class="dots">
+      <li class="dots-item active-dots"></li>
+      <li class="dots-item"></li>
+      <li class="dots-item"></li>
+    </ul>-->
+
+  
+  </section>
+  
+    <!--Верстка седьмого блока-->
+   <section class="wrapper-outer section-quotes">
+    <div class="wrapper-inner">
+      
+      <div class="section-quotes-left">
+      <h4>TESTIMONIALS</h4>
+      <h3>Customer's quotes</h3>
+      <div class="text">
+      Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.No vim nulla vitae intellegat.
+      </div>
+      </div>
+       <div class="section-quotes-right">
+         <div class="text">
+           Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti. 
+           <img src="./img/avatar.jpg" alt="" width="80px"/>
+         </div>
+       </div>
+    </div>
+  </section>
+  
+    <!--Верстка восьмого блока-->
+   <section class="wrapper-outer section-started">
+    <div class="wrapper-inner">
+      <h5>PLAN YOUR LIFE</h5>
+      <h2>Get <span>started </span>now</h2>
+      <div class="text">
+        Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.
+      </div>
+    <div class="btns-fot">Viev video </div>
+    <div class="no-bgr">See features</div>
+    </div>
+  </section>
+  
+    <!--Верстка девятого блока-->
+   <section class="wrapper-outer section-newsletter">
+    <div class="wrapper-inner">
+      <div class="newsletter-left">
+        <h4>Sign up for newsletter</h4>
+         <p class="text">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.</p>
+      </div>
+      <div class="newsletter-right">
+        <form class="form" action="" method="get" accept-charset="utf-8">
+          <input type="text/submit/hidden/button/image" class="input" name="" id="" value="" placeholder="Email address"/>
+          <button type="submit" class="btn btn-primary">Save me</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+    <!--Верстка футера сайта-->
+   <footer class="wrapper-outer section-footer">
+    <div class="wrapper-inner wrapper-inner-width">
+        <div class="main-navigation">
+         <a class="logo" href="#"></a>
+         
+         <!--Навигация подвала-->
+         <nav class="nav">
+           <ul class="nav-ul">
+             <li class="item"> 
+               <a class="link active" href="#">Home</a>
+             </li>
+             <li class="item"> 
+               <a class="link" href="#">Blog</a>
+             </li>
+             <li class="item"> 
+               <a class="link" href="#">Features</a>
+             </li>
+             <li class="item"> 
+               <a class="link" href="#">Pricing</a>
+             </li>
+             <li class="item"> 
+               <a class="link no" href="#">Documentation</a>
+             </li>
+           </ul>
+         </nav>
+         
+         <!--Переход на социальные сети-->
+         <div class="social">
+           <ul class="social-ul">
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img src="./img/facebook.jpg" alt="" />
+               </a>
+             </li>
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img src="./img/telegram.jpg" alt="" />
+               </a>
+             </li>
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img src="./img/medium.jpg" alt="" />
+               </a>
+             </li>
+             <li class="item-social">
+               <a class="link-social" href="#">
+                 <img class="twitter" src="./img/twitter.jpg" alt="" />
+               </a>
+             </li>
+           </ul>
+         </div>
+         
+         <!--Кнопка подвала сайта-->
+         <div class="btn">
+           <a class="link-btn" href="#">Get started</a>
+         </div>
+       </div>
+     <div class="copyright">
+     Copyright © 2021 by Random site
+   </div>
+ </div>
+</footer>
+  
+  <!--подключаю скрипты-->
+  <script src="./js/app.js"></script>
+</body>
+</html>
